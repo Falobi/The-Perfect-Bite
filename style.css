@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+.logo img {
+  max-width: 20rem;
+}
+
+.header a {
+  text-decoration: none;
+  color: #0a0a0a;
+}
+.nav {
+  height: 10vh;
+  background-color: #fff;
+  width: 100vw;
+}
+.logo {
+  position: absolute;
+  left: 2rem;
+  top: 3rem;
+}
+.link {
+  position: absolute;
+  left: 35rem;
+  top: 3rem;
+  color: #333;
+}
+li {
+  float: left;
+  list-style: none;
+  font-size: 1.5rem;
+  padding-left: 3rem;
+}
+.log {
+  position: absolute;
+  right: 5rem;
+  top: 3rem;
+  font-size: 1rem;
+}
+.header {
+  background-image: url(img/background\ img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  height: 90vh;
+
+  position: relative;
+}
+
+h1 {
+  padding-top: 12rem;
+  font-size: 3rem;
+  color: #fff;
+  padding-left: 10rem;
+}
+.header button {
+  padding: 1rem 2rem;
+  margin-top: 7rem;
+  margin-left: 10rem;
+  background-color: rgba(252, 185, 0);
+  color: #fff;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.mid {
+  position: relative;
+  height: 120vh;
+  width: 100vw;
+}
+.mid img {
+  max-width: 26rem;
+}
+.bite {
+  padding-top: 20rem;
+  padding-left: 15rem;
+}
+.note {
+  position: absolute;
+  right: 15rem;
+  top: 15rem;
+  color: #0a0a0a;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.collage {
+  position: absolute;
+  top: 60rem;
+  left: 10rem;
+}
+.footer img {
+  max-width: 4rem;
+}
+.footer {
+  position: relative;
+  top: 13rem;
+  height: 18rem;
+  bottom: 0;
+  background-color: #333;
+  color: #999;
+}
+.footer p {
+  font-size: 1.2rem;
+}
+.details {
+  position: absolute;
+  top: 4rem;
+  left: 30rem;
+}
+#name,
+#email {
+  padding: 0.8rem 0.5rem;
+}
+.details button {
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+  background-color: #fcb900;
+  font-size: 1.5rem;
+  border: none;
+}
+.block {
+  position: absolute;
+  top: 2rem;
+  right: 5rem;
+}
+.sign {
+  position: absolute;
+  top: 11rem;
+  left: 30rem;
+}
+.copy {
+  position: absolute;
+  top: 13rem;
+  left: 30rem;
+}
